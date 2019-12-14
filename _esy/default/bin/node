@@ -1,0 +1,4 @@
+#!/bin/sh
+export ESY__NODE_BIN_PATH="/home/sawyer/oss/hello-reason-rust/_esy/default/bin"
+exec "/usr/local/bin/node" -r "/home/sawyer/oss/hello-reason-rust/_esy/default/pnp.js" "$@"
+              

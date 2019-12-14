@@ -1,0 +1,12 @@
+{
+    "name": "hello-reason-rust",
+    "version": "0.01",
+    "description": "First attempt at esy+reason+rust interop",
+    "license": "MIT",
+    "esy": {
+        "build": [
+            ["bash", "-c", "#{os == 'linux' ? 'cargo build':'echo'}"],
+            ["cargo", "run"]
+        ]
+    }
+}

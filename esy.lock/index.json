@@ -1,0 +1,19 @@
+{
+  "checksum": "0cc961f41dbf4ff5ab5654751a4ba36e",
+  "root": "hello-reason-rust@link-dev:./package.json",
+  "node": {
+    "hello-reason-rust@link-dev:./package.json": {
+      "id": "hello-reason-rust@link-dev:./package.json",
+      "name": "hello-reason-rust",
+      "version": "link-dev:./package.json",
+      "source": {
+        "type": "link-dev",
+        "path": ".",
+        "manifest": "package.json"
+      },
+      "overrides": [],
+      "dependencies": [],
+      "devDependencies": []
+    }
+  }
+}
